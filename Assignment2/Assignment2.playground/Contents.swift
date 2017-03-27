@@ -127,15 +127,7 @@ enum CellState {
  left hand side of the equals sign.
 */
 // A struct representing a Cell in Conway's Game of Life
-struct Cell {
-    // ** Your Problem 3 code goes here! replace the following two lines **
-    var position: Position
-    var state: CellState
-    init() {
-      position = (0,0)
-      state = .empty
-    }
-}
+ 
 
 /*:
  ## Problem 4:
