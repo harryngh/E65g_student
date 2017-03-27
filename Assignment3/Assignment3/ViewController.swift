@@ -20,6 +20,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+  @IBOutlet weak var gridView: GridView!
+  @IBAction func stepPressed(_ sender: UIButton) {
+    gridView.grid = gridView.grid.next()
+    gridView.setNeedsDisplay()
+  }
 
 }
 
